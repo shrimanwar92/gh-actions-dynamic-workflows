@@ -27,7 +27,7 @@ jobs:
       - name: Generate workflow
         id: generate-workflow
         run: |
-          python convert.py -o backup -t ondemand
+          python convert.py
 
       - name: Setup git config
         run: |
